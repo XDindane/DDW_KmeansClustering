@@ -101,11 +101,12 @@ public class GateProcessor {
 
 			ProcessingResource pr = (ProcessingResource) Factory
 					.createResource(procResNames[i], params);
-			// add the PR to the pipeline controller
+// add the PR to the pipeline controller
 			controller.add(pr);
 
-			logger.log(Level.INFO, "added " + pr.getName() + " "
+			logger.log(Level.INFO, "addeed " + pr.getName() + " "
 					+ pr.getClass().getCanonicalName());
+                     
 		}
 
 		// "gate.creole.POSTagger",

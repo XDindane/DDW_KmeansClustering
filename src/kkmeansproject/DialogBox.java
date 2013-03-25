@@ -83,8 +83,8 @@ public abstract class DialogBox extends JPanel
  
     protected void updateDisplays() {
         addressDisplay.setText(formatAddress());
-        URL1.setText("http://cvut.cz");
-        URL2.setText("https://www.vse.cz/english/"); 
+        URL1.setText("http://nadeausoftware.com/node/73");
+        URL2.setText("http://www.fit.cvut.cz/en"); 
         addressDisplay.setFont(regularFont);
 
 
