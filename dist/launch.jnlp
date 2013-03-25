@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="file:/C:/Users/Denda/Desktop/CVUT/DDW/KkmeansProject/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>KkmeansProject</title>
+        <vendor>Denda</vendor>
+        <homepage href=""/>
+        <description>KkmeansProject</description>
+        <description kind="short">KkmeansProject</description>
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.7+"/>
+        <jar href="KkmeansProject.jar" main="true"/>
+    <jar href="lib/PDFBox-0.7.2.jar"/>
+<jar href="lib/gate.jar"/>
+<jar href="lib/jasper-compiler-jdt.jar"/>
+<jar href="lib/jdom.jar"/>
+<jar href="lib/nekohtml-0.9.5.jar"/>
+<jar href="lib/ontotext.jar"/>
+<jar href="lib/poi-2.5.1-final-20040804.jar"/>
+<jar href="lib/stax-api-1.0.1.jar"/>
+<jar href="lib/tm-extractors-0.4.jar"/>
+<jar href="lib/xercesImpl.jar"/>
+</resources>
+    <application-desc main-class="kkmeansproject.DialogBox">
+    </application-desc>
+</jnlp>
